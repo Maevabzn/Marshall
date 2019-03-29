@@ -1,0 +1,139 @@
+body {
+  font: 16px sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+  height: 18vh;
+  background-image: url("/background.37f5c836.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+header .first {
+  color: #D74343;
+}
+header li {
+  display: flex;
+  align-items: center;
+  padding-top: 10vh;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-right: 30px;
+}
+
+main .product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 68px;
+  margin-bottom: 135px;
+}
+main .product p {
+  width: 262px;
+  margin-top: 15px;
+  margin-bottom: 71px;
+}
+main .product button {
+  background: #D74343;
+  border-radius: 45px;
+  width: 136px;
+  height: 40px;
+  color: white;
+  font-size: 24px;
+}
+main .product h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+main .product h2 {
+  font-weight: 900;
+  font-size: 36px;
+  color: #D74343;
+}
+main .product h5 {
+  font-family: "AG Old Face";
+  font-size: 58px;
+  color: #D74343;
+}
+main ul {
+  display: flex;
+  justify-content: space-around;
+}
+main li {
+  display: flex;
+  align-items: center;
+  padding-top: 10vh;
+  text-decoration: underline #E5E5E5;
+  font-size: 18px;
+  text-underline-position: under;
+}
+main li:hover {
+  text-decoration-color: #D74343;
+}
+main .home {
+  text-align: center;
+  background-image: url("/background.37f5c836.png");
+  background-size: cover;
+}
+main .stereo {
+  display: flex;
+  justify-content: space-around;
+}
+main h4 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  text-decoration: underline #D74343;
+  text-underline-position: under;
+}
+main .article {
+  display: flex;
+  justify-content: space-around;
+}
+main figure {
+  margin-bottom: 98px;
+}
+
+footer {
+  background-color: #D74343;
+  display: flex;
+  justify-content: space-around;
+}
+footer h3 {
+  margin-top: 33px;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+footer p {
+  margin-bottom: 20px;
+}
+footer .last {
+  text-align: center;
+}
+
+/*# sourceMappingURL=/style.082fdd9f.css.map */

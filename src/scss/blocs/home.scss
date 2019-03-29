@@ -1,0 +1,126 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  width: 100vw;
+  height: 18vh;
+  background-image: url("../../images/background.png");
+  background-size:cover; 
+  display: flex;
+  justify-content: center;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      color:white;
+    }
+    .first{
+      color: #D74343;
+    }
+  
+    li {
+      display: flex;
+      align-items: center;
+      padding-top: 10vh;
+      text-decoration: underline;
+      text-underline-position: under;
+      margin-right: 30px;
+    }
+  
+}
+main{
+ 
+  .product{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 68px;
+    margin-bottom: 135px;
+    p{
+      width: 262px;
+      margin-top: 15px;
+      margin-bottom: 71px;
+    }
+
+    button{
+      background: #D74343;
+      border-radius: 45px;
+      width: 136px;
+      height: 40px;
+      color:white;
+      font-size: 24px;
+    }
+    h1{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    h2{
+      font-weight: 900;
+      font-size: 36px;
+      color: #D74343;
+    }
+    h5{
+        font-family: 'AG Old Face';
+        font-size: 58px;
+        color: #D74343;
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    text-decoration: underline#E5E5E5;
+    font-size: 18px;
+    text-underline-position: under;
+  }
+  li:hover{
+    text-decoration-color: #D74343;
+  }
+  .home{
+    text-align: center;
+    background-image: url("../../images/background.png");
+    background-size:cover; 
+  }
+  .stereo{
+    display: flex;
+    justify-content: space-around;
+  }
+  h4{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    text-decoration: underline #D74343;
+    text-underline-position: under;
+  }
+  .article{
+    display: flex;
+    justify-content: space-around;
+  }
+  figure{
+    margin-bottom: 98px;
+  }
+  
+}
+footer{
+  background-color: #D74343;
+  display: flex;
+  justify-content: space-around;
+  h3{
+    margin-top: 33px;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+  p{
+    margin-bottom: 20px;
+  }
+  .last{
+    text-align: center;
+  }
+}
